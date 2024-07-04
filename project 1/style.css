@@ -1,0 +1,150 @@
+body{
+    font-family:'montserrat',sans-serif;
+    margin: 0;
+    background-color:rgb(255, 255, 255);
+    color: black;
+}
+.main{
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+    
+}
+.header{
+    background-color: white;
+    height: 9vh;
+    border-radius: 0.75rem;
+    display: flex;
+    justify-content:space-between;
+    overflow:visible;
+}
+.icons{
+    padding-top: 2rem;
+}
+a{
+    text-decoration: none;/*removes underline*/
+    color:black;
+    padding-right:5rem ;
+    font-weight: 500;  
+}
+a:hover{
+    color: rgb(138, 8, 138);
+    font-weight: 700;
+}
+.logo{
+    margin: 0;
+}
+.logo img{
+    margin: 0;
+    height:4rem;
+    width: 5rem;
+   
+}
+.content{
+    height: 94vh;
+    width:100%;
+    background-image:url("bg-image2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.lines{
+    color:rgb(255, 255, 255);
+    font-size: 6rem;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+.lines2{
+    color:rgb(255, 255, 255) ;
+    margin-left: 5rem;
+    margin-top: 0;
+    font-style: oblique;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+
+}
+.badge{
+    background-color: black;
+    color: white;
+    margin-left: 6rem;
+       height: 2rem;
+       font-weight: 300;
+       justify-content: center;
+    margin-bottom: 2.5rem;
+
+
+}
+.badge:hover{
+    color: purple;
+    height:2.1rem ;
+
+}
+.cards{
+    width: 100%;
+   opacity: 1;
+    bottom: 0;
+    overflow: hidden;
+}
+.card-container{
+   background-color: white;
+   display: inline-block;
+   width: 100%;
+   height:9.5rem;
+   margin-top: 1rem;
+}
+.card{
+    
+    width: 13rem;
+    height: 9.5rem;
+    margin-right: 0.5rem;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.card img{
+    height: 100%;
+    width: 100%;
+}
+.text1{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    top: 91%;
+    margin-left: 1rem;
+    font-style: italic;
+    font-weight: 600;
+    font-style:oblique;
+}
+.container{
+    margin-left: 2rem; 
+    position:absolute;
+    height:9.5rem;
+    background: radial-gradient(circle at 10% 20%, rgb(236, 158, 248) 0%, rgb(131, 83, 241) 90.1%);
+
+}
+.p{
+    margin-top:2rem;
+    color: white;
+    font-size: 1rem;
+}
+.card1{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height:9.5rem;
+    width: 5.9rem;
+}
+.container button{
+    margin-top: 1.8rem;
+    margin-left:5rem;
+    height: 2rem;
+    font-weight: 500;
+    justify-content: center;
+    border-radius: 0.7rem;
+}
